@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bhoomika Ravishankar – Data Science & Analytics</title>
+  <meta name="description" content="Bhoomika Ravishankar – Data Science & Analytics. A/B testing, personalization analytics, LLM/RAG pipelines, dashboards in Tableau/Power BI, SQL & Python." />
+  <meta property="og:title" content="Bhoomika Ravishankar – Data Science & Analytics" />
+  <meta property="og:description" content="A/B testing, personalization analytics, experimentation metrics, LLM/RAG, SQL, Python, Tableau, Power BI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/0?v=4" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <style>
+    :root{
+      --bg:#0b1020; --panel:#0f172a; --muted:#94a3b8; --acc:#0ea5e9; --text:#e2e8f0;
+      --card:#111827; --chip:#0b6ea8; --link:#7dd3fc;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; color:var(--text); background:radial-gradient(1200px 700px at 70% -10%, #0a2540, transparent), var(--bg)}
+    a{color:var(--link); text-decoration:none}
+    a:hover{opacity:.9}
+    .container{max-width:1000px;margin:0 auto;padding:24px}
+    header{position:sticky; top:0; backdrop-filter: blur(6px); background:rgba(10,17,35,.65); border-bottom:1px solid rgba(255,255,255,.06);}
+    nav{display:flex; align-items:center; justify-content:space-between; padding:12px 0}
+    .brand{display:flex; gap:12px; align-items:center}
+    .brand .dot{width:10px; height:10px; background:var(--acc); border-radius:999px; box-shadow:0 0 20px var(--acc)}
+    .brand h1{font-size:16px; margin:0; letter-spacing:.5px; font-weight:600}
+    .navlinks a{margin-left:16px; font-size:14px}
+    .hero{display:grid; grid-template-columns:1.2fr .8fr; gap:32px; align-items:center; padding:52px 0}
+    .hero h2{font-size:40px; line-height:1.1; margin:0 0 12px}
+    .hero p{color:var(--muted); margin:0 0 18px}
+    .chips{display:flex; flex-wrap:wrap; gap:8px; margin:18px 0}
+    .chip{background:rgba(14,165,233,.16); color:#b3e5ff; border:1px solid rgba(125,211,252,.25); padding:6px 10px; border-radius:999px; font-size:12px}
+    .cta{display:flex; gap:12px; margin-top:6px}
+    .btn{background:var(--acc); color:#061018; border:none; padding:10px 14px; border-radius:10px; font-weight:600}
+    .btn.ghost{background:transparent; color:var(--text); border:1px solid rgba(255,255,255,.14)}
+    .panel{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:18px}
+    .grid{display:grid; gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3, 1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2, 1fr)}
+    .card{background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:14px; padding:16px; display:flex; flex-direction:column; gap:10px}
+    .card h3{margin:0; font-size:16px}
+    .card p{margin:0; color:var(--muted); font-size:14px}
+    .card .meta{display:flex; gap:8px; flex-wrap:wrap}
+    section{padding:28px 0}
+    h2.section-title{font-size:20px; margin:0 0 12px}
+    .two-col{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+    footer{padding:28px 0; color:var(--muted); font-size:14px}
+    .avatar{width:140px; height:140px; border-radius:16px; background:linear-gradient(145deg,#1f2937,#0f172a); border:1px solid rgba(255,255,255,.08)}
+    .resume-bullets{display:flex; flex-direction:column; gap:10px}
+    .tag{font-size:12px; padding:4px 8px; border:1px solid rgba(255,255,255,.15); border-radius:999px; color:#cbd5e1}
+    .tags{display:flex; gap:8px; flex-wrap:wrap}
+    @media (max-width:900px){ .hero{grid-template-columns:1fr; padding:30px 0} .grid.cols-3{grid-template-columns:1fr} .grid.cols-2{grid-template-columns:1fr} .two-col{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand"><span class="dot"></span><h1>Bhoomika Ravishankar</h1></div>
+        <div class="navlinks">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero panel" id="about">
+      <div>
+        <h2>Data Scientist & Analytics Engineer</h2>
+        <p>MS student (UIUC) focused on A/B testing, personalization analytics, experimentation metrics, and LLM/RAG pipelines. I turn large datasets into clear, actionable product insights.</p>
+        <div class="chips">
+          <span class="chip">SQL</span>
+          <span class="chip">Python</span>
+          <span class="chip">A/B Testing</span>
+          <span class="chip">Personalization</span>
+          <span class="chip">Tableau & Power BI</span>
+          <span class="chip">AWS</span>
+          <span class="chip">LLM • RAG</span>
+        </div>
+        <div class="cta">
+          <a class="btn" href="mailto:br36@illinois.edu">Contact me</a>
+          <a class="btn ghost" href="#projects">See projects</a>
+        </div>
+      </div>
+      <div style="display:flex; justify-content:center; align-items:center">
+        <div class="avatar"></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>LLM Embeddings + Ridge (Explainable Finance NLP)</h3>
+          <p>Built an embedding + ridge regression pipeline to improve transparency of financial text models by ~30%, enabling domain experts to audit decisions.</p>
+          <div class="meta tags">
+            <span class="tag">Python</span><span class="tag">sklearn</span><span class="tag">LLM</span><span class="tag">Explainability</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Retrieval-Augmented Generation (RAG) for Filings</h3>
+          <p>Prototyped RAG pipelines for financial documents with rigorous evaluation; observed ~40% accuracy gains with reproducible, auditable runs.</p>
+          <div class="meta tags">
+            <span class="tag">RAG</span><span class="tag">Vector DB</span><span class="tag">Evaluation</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>A/B Testing & Experimentation Toolkit</h3>
+          <p>Python utilities for experiment design, randomization, and metrics reads; enabled faster feature reviews and consistent KPI reporting.</p>
+          <div class="meta tags">
+            <span class="tag">A/B</span><span class="tag">Pandas</span><span class="tag">SQL</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Product Analytics Dashboard</h3>
+          <p>Tableau/Power BI dashboards tracking churn, retention, engagement funnels; used by stakeholders for near real-time decisions.</p>
+          <div class="meta tags">
+            <span class="tag">Tableau</span><span class="tag">Power BI</span><span class="tag">Snowflake</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Realtime Anomaly Detection (AWS/Hive)</h3>
+          <p>Streaming checks across >100K records to strengthen fraud/compliance monitoring; alerting wired into dashboards.</p>
+          <div class="meta tags">
+            <span class="tag">AWS</span><span class="tag">Hive</span><span class="tag">Anomaly</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Cloud Data Pipeline Automation</h3>
+          <p>Automated ingestion/transform for analytics; reduced manual reporting delays and improved experimentation cadence.</p>
+          <div class="meta tags">
+            <span class="tag">S3</span><span class="tag">Glue</span><span class="tag">Databricks</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Synchrony — Data Science Intern</h3>
+          <p><em>May 2025 – Present · Champaign, IL</em></p>
+          <div class="resume-bullets">
+            <div>Processed and analyzed 120K+ multi-source records in SQL/Python, powering clean pipelines for experimentation metrics and product KPIs.</div>
+            <div>Automated ETL with SQL + AWS, cutting reporting time by ~40% and enabling weekly feature reviews.</div>
+            <div>Partnered with PMs/engineers to standardize KPIs and define experiment success metrics across teams.</div>
+            <div>Ran cohort studies and A/B reads for adoption/engagement; insights informed rollout sequencing.</div>
+          </div>
+          <div class="tags"><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">AWS</span><span class="tag">Power BI</span></div>
+        </div>
+        <div class="card">
+          <h3>UIUC — Research Assistant (Data Science)</h3>
+          <p><em>Jan 2025 – Present · Champaign, IL</em></p>
+          <div class="resume-bullets">
+            <div>LLM-embedding + ridge framework improved model interpretability by ~30% for finance text tasks.</div>
+            <div>RAG pipelines for filings boosted retrieval/answer accuracy by ~40% with reproducible evaluations.</div>
+            <div>Realtime anomaly detection in AWS/Hive (>100K records) strengthened fraud & compliance monitoring.</div>
+            <div>Interactive dashboards combined A/B metrics with alerts to speed feedback loops for iteration.</div>
+          </div>
+          <div class="tags"><span class="tag">LLM</span><span class="tag">RAG</span><span class="tag">Hive</span><span class="tag">Power BI</span></div>
+        </div>
+        <div class="card">
+          <h3>Business Intelligence Group (BIG), UIUC — Data Consultant</h3>
+          <p><em>Jan 2025 – May 2025 · Champaign, IL</em></p>
+          <div class="resume-bullets">
+            <div>Built Tableau/Power BI dashboards integrating engagement data for adoption metrics & experiment tracking.</div>
+            <div>EDA surfaced retention bottlenecks; PMs used findings to optimize personalization features.</div>
+            <div>Automated SQL/Python reporting workflows, halving analytics turnaround time.</div>
+            <div>Presented experiment outcomes & behavioral insights to align cross-functional decisions.</div>
+          </div>
+          <div class="tags"><span class="tag">Tableau</span><span class="tag">Power BI</span><span class="tag">SQL</span></div>
+        </div>
+        <div class="card">
+          <h3>Repute Engineers — Data Analyst Intern</h3>
+          <p><em>Feb 2023 – Apr 2023 · Pune, India</em></p>
+          <div class="resume-bullets">
+            <div>Automated KPI reporting (SQL + Excel macros), reducing cycle time by ~40%.</div>
+            <div>Built trend visualizations for finance/ops to support strategic decisions.</div>
+          </div>
+          <div class="tags"><span class="tag">Excel</span><span class="tag">SQL</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Contact</h2>
+      <div class="two-col panel" id="contact">
+        <div>
+          <p>Email: <a href="mailto:br36@illinois.edu">br36@illinois.edu</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/bhoomikaravishankar/" target="_blank" rel="noreferrer">linkedin.com/in/bhoomikaravishankar</a></p>
+          <p>GitHub: <a href="#" target="_blank" rel="noreferrer">github.com/your-username</a> (add this later)</p>
+        </div>
+        <div>
+          <p>Open to roles in Data Science, Experimentation/Personalization Analytics, and ML/LLM applications. Time zones: CST/EST friendly.</p>
+          <div class="tags"><span class="tag">Open to opportunities</span><span class="tag">Remote/Hybrid</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div>© <span id="y"></span> • Built with HTML/CSS • Hosted on GitHub Pages</div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
